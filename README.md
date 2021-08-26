@@ -1,27 +1,31 @@
 # Spring Boot Rest API
-Learning Objectives
 
-## Part 1: Implementing the Users Microservice RESTFUL API
+## Part 2: Implementing the Tasks Microservice RESTFUL API
 
-Create a new package called dto and inside define your UserDto object with at least the following fields:
+Create a new package called dto and inside define your TaskDto object with at least the following fields:
 
 - name.
-- email.
-- lastName.
+- description.
+- status [TODO, DOING, REVIEW and DONE].
+- assignedTo.
+- dueDate.
+- created.
 
-Create a new package called data and inside define your User data object with at least the following fields:
+Create a new package called data and inside define your Task data object with at least the following fields:
+
 - id.
 - name.
-- email.
-- lastName.
-- createdAt.
+- description.
+- status [TODO, DOING, REVIEW and DONE].
+- assignedTo.
+- dueDate.
+- created.
+
 Create a new package called service an inside create the following interface:
 
-Create an implementation of the UserService using a HashMap data structure inside.
-Make your service implementation UserServiceHashMap injectable using the @Service annotation.
+Create an implementation of the TaskService using a HashMap data structure inside.
+Make your service implementation TaskServiceHashMap injectable using the @Service annotation.
 
-Create a new package called controller and create a new class UserController inside.
-Annotate your UserController so it becomes a REST Controller, Inject your UserService implementation inside the UserController via the constructor:
+Implement you TaskController (try to avoid copy paste, use the User Microservice as reference but try doing it consciously).
 
-
-Download and install Postman and test ALL the endpoints of your API.
+Test ALL the endpoints of your API using PostMan or any other tool of your preference.
