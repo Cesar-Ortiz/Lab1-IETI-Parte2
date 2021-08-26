@@ -41,3 +41,16 @@ Make your service implementation TaskServiceHashMap injectable using the @Servic
 ![](img/Controller3.PNG)
 
 6. Test ALL the endpoints of your API using PostMan or any other tool of your preference.
+
+### Post
+![](img/Creando.PNG)
+
+### Put
+![](img/Actualizando.PNG)
+
+### Delete
+![](img/Eliminando.PNG)
+
+### Get
+![](img/Todos.PNG)
+
