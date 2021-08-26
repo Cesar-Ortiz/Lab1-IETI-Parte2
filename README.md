@@ -44,6 +44,7 @@ Make your service implementation TaskServiceHashMap injectable using the @Servic
 
 ### Post
 ![](img/Creando.PNG)
+![](img/Creando2.PNG)
 
 ### Put
 ![](img/Actualizando.PNG)
